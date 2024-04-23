@@ -1,0 +1,11 @@
+Activitatea consta intr-un Profesor care are ca atribute(private: nume, adresa, nrTelefon, email, salar) iar acesta poate adauga sau elimina un student la seminarul respectiv.
+Totodata exista unele seminare care nu au profesor.
+Seminarele au ca atribute (private: nume, IDseminar si taxe, si operatii publice(addStudent), dropStudent()) iar ele depind de alegerea studentului (pot fii de la 0 seminare in sus). Daca studentul este adaugat atunci acesta este pe lista de asteptare,
+unde i se atribuie seminarele alese si se verifica daca este eligibl pentru incriere . Studentul are ca atribute( - private : nume, adresa, nrTelefon, email, IDstudent, mediaNotelor, si operatii publice: esteEligibilInscriere() si getSeminarAlese())
+O data ce acesta este eligibilPentruInscriere acesta se poate inscrie : (Inscriere au ca atribute: private: -notePrimite si operatiile publice :(getMediaLaZi(), getNotaFinala()))
+Intre Seminar si Student exista o relatie de asociere unidirectionala, la fel si pentru Student si Inscriere. Iar intre Seminar si Profesor este relatie de asociere directionala.
+
+- Un singur student poate sa se inscrie la 1 sau mai multe (..)
+- Totodata - un profesor are acces la 0 sau mai multe seminare
+- Un student poate avea 0 sau mai multe seminare
+- Un seminar poate avea 0 sau mai multi studenti.

@@ -1,0 +1,20 @@
+Ce este UML si pentru ce este utilizat?
+Este un limbaj de modelare generalizat standardizat in domeniul ingineriei software. Este utilizat pentru a crea modele vizuale de sisteme intensive in software.
+
+Ce sunt modelele si care este utilitatea lor?
+Modelele sunt reprezentări abstracte sau simbolice ale unui sistem, concept sau proces real. Acestea sunt utilizate într-o varietate de domenii, inclusiv în știința calculatoarelor, inginerie, matematică, științe sociale, arte și multe altele.
+
+
+Ce tipuri de diagrame sunt prezentate in [1] – Capitolul 2? Care sunt asemanarile si deosebirile intre acestea?:
+Diagramele prezentate in [1] sunt : diagrama de clasa, diagrama de cazuri de utilizare, diagrama de activitate, diagrama de secvente si diagrama masinii de stare.
+Asemanari si deosebiri:
+Asemanari: folosesc UML, toate sunt utilizate pentru ajutorul dezvoltarii software
+Deosebiri: -fiecare diagrama are un continut aparte al ei (exemplu pentru a crea acel : actor trebuie sa folosim USE case la care are acces si diagrama de secvente (mi-am dat seama in tema la lab1))
+	   -detaliile(unele pot fi foarte detaliate(diagrama de clasa).)
+
+Caracterizati succint fiecare diagrama prezentata in [1] – Capitolul 2 (cele 5 mentionate mai sus):
+- Class diagram = reprezinta structura unui sistem, aratand clasele acestuia, atributele lor si relatiile intre clase.
+- Use case diagram = descrie interactiunile intre actorii externi si sistem.
+- Activity diagram = ilustreaza secventele de actiuni in cadrul unei activitati.
+- Sequence diagram = Arata interactiunile intre obiectele unui sistem intr-o ordine cronologica, evidentiind mesajele trimise intre acestea.
+- State machine diagram = descrie starile posibile ale unui obiect si tranzitiile intre aceste stari in fucntie de evenimente.

@@ -1,0 +1,10 @@
+Prima problema:
+1)Actorii : User, Profesor, Student, Secretara si Student cu taxa
+2)Da, actor general: (User si Student)  
+-Pentru User, actorii specializati sunt: Profesor, Student, Secretara
+-Pentru Student, actorul specializat este: Student cu taxa
+Relatie de generalizare.
+3) Cazuri de utilizare: - Login, Esuare conectare, vizualizare note, inregistreaza note, actualizeaza note, salvare disc, generare rapoarte cu note, distribuie rapoarte cu notele
+4) Da, sunt in relatie de incluziune 
+(Login(este folosit intotdeauna) -> vizualizare note)
+5) Da. Sunt in relatie de extindere. (Login de catre esuare conectare)
